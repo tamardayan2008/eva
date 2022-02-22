@@ -70,6 +70,14 @@ robot.straight(-90) #עושה את המשימה המשותפת
 tiny_motor.stop() #הפסקה
 wait(200) #דיליי
 
+robot.straight(360) #נוסעת לכיוון הבית
+robot.turn(54) #פונה
+robot.straight(1200) #נוסעת לכיוון הבית
+robot.turn(54) #פונה
+robot.straight(500) #נוסעת לכיוון הבית עם הקופסא הכחולה
+
+
+
 #robot.straight(40) #הולכת למסוק
 #robot.turn(-40) #פונה כדי שתהיה עם גב למסוק
 #robot.straight(30) #מתנגשת במסוק
